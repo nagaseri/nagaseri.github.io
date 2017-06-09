@@ -37,8 +37,9 @@ h1, h2, h3 {
 	height: 100px;
 	background-color: white;
 	float: right;
+	position: right;
 	left: 1500px;
-	padding-right: 330px;
+	padding-right: 200px;
 	padding-top: 30px;
 	margin-right: 30px;
 	border-bottom: 3px solid #dddddd;
@@ -57,6 +58,7 @@ h2 {
 	border-bottom-color: #dddddd;
 	border-style: solid;
 	width: 600px;
+	color: #4aaaa5;
 }
 
 .main {
@@ -87,8 +89,12 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
+.container {
+	margin-left: 30px;
+}
 
 .about {
 	background-color: #ffffff;
@@ -97,7 +103,7 @@ input[type=submit] {
 	border-style: solid;
 	float: left;
 	width: 650px;
-  	margin-bottom:50px; 
+  	margin-bottom: 100px; 
   	margin-left: 40px;
   	/*line-height: 30px;*/
 	/*color:  #4aaaa5;	*/
