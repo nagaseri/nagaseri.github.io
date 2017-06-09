@@ -1,21 +1,77 @@
 <!DOCTYPE html>
 <html>
-	<head>
+
+<head>
+		<meta charset="UTF-8">
 		<title>Eri Nagase</title>
 
-		<link rel = "stylesheet" type = "text/css" href = "css/style.css"/>
+<!-- CSS Reset -->
+		<link rel="stylesheet" type="text/css" href="reset.css">
 
-		<a href="about.html">About</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
-	</head>
+<!-- Link to CSS  -->
+		<link rel="stylesheet" type="text/css" href="contact-style.css">
+</head>
+
 <body>
-	<header><h1 id="name">Eri Nagase</h1>
-			
-		<a href="about.html">About</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
 
-	</header>
+<!-- Banner -->
+	<div class="banner">
+		<div class="logo">
+			<h1><em>Eri Nagase</em></h1>
+		</div>
+
+<!-- Nav bar -->
+
+		<div class="navigation">
+			<a href="index.html">About</a> |
+			<a href="portfolio.html">Portfolio</a> |
+			<a href="contact.html">   Contact</a>
+		</div>
+	</div>
+
+	<div class="main">
+
+<!-- About Me -->		
+		<article class="about">
+
+			<h2>Contact</h2>
+			<br>
+			<div class="container">
+  			
+  			<form action="/action_page.php">
+
+   			<label for="name">Name</label>
+    		<input type="text" placeholder="John Smith">
+			<br>
+    		<label for="email">Email</label>
+    		<input type="text" placeholder="example@gmail.com">
+			<br>
+			<br>
+    		<label for="subject">Message</label>
+    		<textarea style="height:200px width: 380px"></textarea>
+			<br>
+    		<input type="submit" value="Submit">
+
+  </form>
+</div>
+
+		</article>
+
+	<!-- Social media icons -->
+		<aside class="connect"><h3>Connect with Me</h3>
+			<a href="#">
+				<img class="logoimage" src="images/linkedin.png" alt="Linkedin Logo" style="width: 42px; height: 42px; border: 0;">
+			</a>
+			<a href="#">
+				<img class="logoimage" src="images/github.png" alt="Github logo" style="width: 42px; height: 42px; border: 0;">
+			</a>
+			<a href="#">
+				<img class="logoimage" src="stack.ico" alt="Stack Overflow logo" style="width: 42px; height: 42px; border: 0;">
+			</a>
+		</aside>
+	</div>
+<footer>
+		<!-- insert at copyright symbol -->
+		<p>@Copyright 2017 Eri Nagase</p>
+</footer>
 </body>
-</html>
